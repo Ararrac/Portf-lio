@@ -21,6 +21,8 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    position: fixed;
+    width: 100%;
 }
 
 .gith button{
@@ -51,17 +53,11 @@ header{
     color: white;
     cursor: progress;/* Mudar dps */
     margin-right: auto;
-    
-    
-    
-}
-.logo:hover{
-    
-
-}
+    }
 
 .navlinks{
     list-style: none;
+    
 }
 
 .navlinks li{
@@ -71,6 +67,7 @@ header{
 
 .navlinks li a{
     transition: all 0.4s ease 0s;
+    
     
 }
 
