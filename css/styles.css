@@ -8,7 +8,7 @@
 }
 
 
-li, a{
+nav li, a{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -81,4 +81,44 @@ header{
     font-family: 'Lato', sans-serif;
     font-size: large;
     color: #0088a9 ;
+}
+
+.chbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    margin-right: 40px;
+    display: none;
+}
+.chbtn:hover{
+    color: #0088a9;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 952px){
+    .logo{
+        font-size: 20px;
+    }
+    .navlinks li a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 858px){
+    .chbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        text-align: center;
+        width: 50px;
+    }
+    header{
+        position: relative;
+    }
 }
